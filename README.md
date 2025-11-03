@@ -85,4 +85,3 @@ tencent_update/
 
 如有问题或建议，欢迎在 GitHub Issues 中留言，或通过邮箱联系开发者。3200418862@qq.com
 
-如果你希望我帮你生成 `.gitignore` 文件、打包项目结构或添加截图/日志功能，我可以继续完善。是否需要我把这个 README 自动提交到你的 GitHub 项目？
