@@ -32,12 +32,10 @@ pip install -r requirements.txt
 如果你电脑没有安装过任何环境，请先配置python语言环境。
 
 如果能保证本地包不冲突，直接运行下行代码。
-
- 安装依赖
 pip install selenium webdriver-manager
 
-如若没有安装ChromeDriver，则需要匹配和谷歌浏览器同一版本的ChromeDriver。
- 在代码中自动下载匹配 ChromeDriver
+如若没有安装ChromeDriver，则需要匹配和谷歌浏览器同一版本的ChromeDriver。在代码中自动下载匹配 ChromeDriver
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -48,7 +46,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 ### 2. 运行脚本
 
 ```bash
-python run.py
+python tencent_update.py
 ```
 
 脚本将自动循环执行简历更新流程，每轮间隔 5–12 分钟。
