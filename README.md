@@ -31,13 +31,10 @@ pip install -r requirements.txt
 ```
 如果你电脑没有安装过任何环境，请先配置python语言环境。
 
-如果能保证本地包不冲突，直接运行下行代码。
-```bash
-pip install selenium webdriver-manager
-```
-
 如若没有安装ChromeDriver，则需要匹配和谷歌浏览器同一版本的ChromeDriver。在代码中自动下载匹配 ChromeDriver
 ```bash
+pip install selenium webdriver-manager
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
