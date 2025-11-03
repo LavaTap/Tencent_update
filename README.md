@@ -1,9 +1,4 @@
----
-
-## 📄 README.md
-
-```markdown
-# QQ招聘自动化简历更新脚本
+# 📄 Tencent_update
 
 这是一个基于 Selenium 的自动化脚本，用于定时更新腾讯招聘平台上的简历状态。
 
@@ -38,11 +33,11 @@ pip install -r requirements.txt
 
 如果能保证本地包不冲突，直接运行下行代码。
 
-# 安装依赖
+ 安装依赖
 pip install selenium webdriver-manager
 
 如若没有安装ChromeDriver，则需要匹配和谷歌浏览器同一版本的ChromeDriver。
-# 在代码中自动下载匹配 ChromeDriver
+ 在代码中自动下载匹配 ChromeDriver
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
